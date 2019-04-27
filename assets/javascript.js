@@ -67,9 +67,7 @@ $( document ).ready(function(){
             if (userTotal == Random){
             win();
           }
-          else if ( userTotal > Random){
-            lose();
-          } 
+
     })  
     $("#four").on ("click", function(){
       userTotal = userTotal + num4;
